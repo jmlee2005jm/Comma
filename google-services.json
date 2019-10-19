@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254274765087",
+    "firebase_url": "https://hscom-fd27a.firebaseio.com",
+    "project_id": "hscom-fd27a",
+    "storage_bucket": "hscom-fd27a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254274765087:android:76e3c55a28a3811d",
+        "android_client_info": {
+          "package_name": "com.example.hscom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254274765087-2vhmgptnnihvgf1bg0uvclc5ostabvaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hscom",
+            "certificate_hash": "8a25901584e72fd2d0e0534032e52b9935637b35"
+          }
+        },
+        {
+          "client_id": "254274765087-3divhu1shmro95rj89spej80h0jsio3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb8VfN9kAhv-e50Hh8YwP8SHBOHnEU5f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254274765087-3divhu1shmro95rj89spej80h0jsio3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schoolinfo">
+    <Button
+        android:id="@+id/comBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="커뮤니티로 가기"/>
+    <Button
+    android:id="@+id/websiteBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="웹사이트로 가기"/>
+</LinearLayout>

@@ -39,7 +39,7 @@
         <EditText
             android:id="@+id/subText"
             android:layout_margin="10dp"
-            android:hint="세부사항"
+            android:hint="시간"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

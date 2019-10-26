@@ -15,11 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:src="@drawable/school_main"/>
-    <Button
-        android:id="@+id/intentBtn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="press"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

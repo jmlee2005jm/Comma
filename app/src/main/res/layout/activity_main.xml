@@ -3,22 +3,5 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="#9D8B77">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Comma"
-        android:textSize="50dp"
-        android:padding="20dp"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/school_main"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="안드 3 김인하 이정민 조하영"
-        android:textColor="#FFFFFF"
-        android:layout_gravity="bottom|end"/>
+    android:background="@drawable/homescreen_comma">
 </LinearLayout>

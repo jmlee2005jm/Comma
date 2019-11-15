@@ -14,7 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddPlanActivity"/>
+        <activity android:name=".AddPlanDemo"></activity>
+        <activity android:name=".PlannerDemo" />
+        <activity android:name=".myeongdukComDemo" />
+        <activity android:name=".myeongdukInfoDemo" />
+        <activity android:name=".demo_schoolselect" />
+        <activity android:name=".demoMain" />
+        <activity android:name=".AddPlanActivity" />
         <activity android:name=".PlannerActivity" />
         <activity android:name=".CreateSchool" />
         <activity android:name=".newArticle" />

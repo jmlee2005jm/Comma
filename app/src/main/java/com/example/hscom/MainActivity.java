@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Handler handler = new Handler(){
             public void handleMessage (Message msg){
                 super.handleMessage(msg);
-                startActivity(new Intent(MainActivity.this, hscom_list.class));
+                startActivity(new Intent(MainActivity.this, demoMain.class));
                 finish();
             }
         };

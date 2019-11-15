@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#755854">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="10dp"
+            android:text="전체"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/logocomma"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  대원외고 합격생\n중국어과 합격수기"
+            android:textSize="12pt"
+            android:textColor="#000000"
+            android:padding="10dp"/>
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_article"
+        android:textSize="12dp"
+        android:textColor="#000000"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/schoolSelectDemoBtn"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#755854"
+            android:text="학교선택"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/plannerDemoBtn"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#755854"
+            android:text="플래너"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
